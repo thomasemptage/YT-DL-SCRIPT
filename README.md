@@ -1,9 +1,10 @@
 # YT-DL-SCRIPT
 
-A very simple script i use to run YT-DLP in a directory, to download a channels videos to the current directory.
+A very simple script I use to run YT-DLP, also implementing a notifaction via Telegram when it has finished. 
 
-The channels URL needs to be entered into a file "input.txt" in the same location as the script.
+Prerequisites.
+- YT-DLP ( And FFMPEG if you plan on re-encoding videos etc)
+- Curl - Used to send a request to telegram. Could be done with wget etc. 
 
-Improvements for the future..
-
-I would like it to iterate over multiple directories rather than copying the script to each one.
+Instructions
+Clone the repo to a directory on your machine and enter a list of videos or channels into the input.txt file. 
